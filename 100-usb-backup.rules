@@ -1,0 +1,1 @@
+KERNEL=="sd?1", ACTION=="add", ATTRS{idVendor}=="8564", ATTRS{idProduct}=="1000", RUN+="/home/qwsaz/.bin/usb_backup.sh", SYMLINK+="usbdevices/autobackup"
